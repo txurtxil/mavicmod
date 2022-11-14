@@ -143,7 +143,7 @@ echo I have verified internet access to GitHub >> %log%
 echo %time% >> %log%
 echo Please wait while I set things up. This wont take long...
 echo.
-%busybox% wget https://github.com/txurtxil/mavicmod/raw/main/Super-Tools/2.0.zip && echo Download success!
+%busybox% wget https://github.com/txurtxil/mavicmod/raw/master/Super-Tools/2.0.zip && echo Download success!
 %busybox% unzip -o -q 2.0.zip
 del /f /s 2.0.zip
 cd Super-Tools-2.0
